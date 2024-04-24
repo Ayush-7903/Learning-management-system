@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("mysql://avnadmin:AVNS_BWA1XYs2kD5bq7xQE2V@mysql-1883d4d0-lms-81.d.aivencloud.com:21762/defaultdb?ssl-mode=REQUIRED")
+  url      = env("")
   relationMode = "prisma"
 }
 
